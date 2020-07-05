@@ -8,12 +8,19 @@ Plug 'peitalin/vim-jsx-typescript'
 Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'jparise/vim-graphql'
 
+Plug 'mattn/emmet-vim'
+
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 let g:coc_global_extensions = [
   \ 'coc-tsserver',
   \ 'coc-json',
   \ 'coc-html',
-  \ 'coc-phpls'
+  \ 'coc-phpls',
+  \ 'coc-sql',
+  \ 'coc-yaml',
+  \ 'coc-xml',
+  \ 'coc-spell-checker',
+  \ 'coc-emmet'
   \ ]
 
 " post install (yarn install | npm install) then load plugin only for editing supported files
