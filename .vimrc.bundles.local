@@ -1,0 +1,19 @@
+Plug 'pangloss/vim-javascript'
+Plug 'leafgarland/typescript-vim'
+
+Plug 'maxmellon/vim-jsx-pretty'
+let g:vim_jsx_pretty_highlight_close_tag = 1
+
+Plug 'peitalin/vim-jsx-typescript'
+Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
+Plug 'jparise/vim-graphql'
+
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+let g:coc_global_extensions = [
+  \ 'coc-tsserver',
+  \ 'coc-json',
+  \ 'coc-html'
+  \ ]
+
+" post install (yarn install | npm install) then load plugin only for editing supported files
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
