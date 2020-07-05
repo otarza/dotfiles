@@ -9,6 +9,12 @@ Plug 'styled-components/vim-styled-components', { 'branch': 'main' }
 Plug 'jparise/vim-graphql'
 
 Plug 'mattn/emmet-vim'
+let g:user_emmet_settings = {
+      \  'javascript' : {
+      \      'extends' : 'jsx',
+      \  },
+      \}
+
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 let g:coc_global_extensions = [
