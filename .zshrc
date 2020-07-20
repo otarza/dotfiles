@@ -108,3 +108,8 @@ export NVM_DIR="$HOME/.nvm"
 
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# BEGIN SNIPPET: Platform.sh CLI configuration
+HOME=${HOME:-'/home/oto'}
+export PATH="$HOME/"'.platformsh/bin':"$PATH"
+if [ -f "$HOME/"'.platformsh/shell-config.rc' ]; then . "$HOME/"'.platformsh/shell-config.rc'; fi # END SNIPPET
