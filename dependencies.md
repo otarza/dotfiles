@@ -13,6 +13,7 @@
 
 ## Docker
 https://docs.docker.com/engine/install/ubuntu/
+https://docs.docker.com/compose/install/
 
 ## Dotfiles
 - `cd ~ && git init && git remote add origin git@github.com:otarza/dotfiles.git && git fetch`
