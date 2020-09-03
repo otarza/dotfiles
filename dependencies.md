@@ -10,6 +10,8 @@
 ## Utilities
 - `sudo apt install curl`
 - `sudo apt-get install php7.4-fpm` // check latest version
+- `sudo apt install gnome-tweaks`
+- `sudo apt-get install -y dconf-editor`
 
 ## Docker
 https://docs.docker.com/engine/install/ubuntu/
