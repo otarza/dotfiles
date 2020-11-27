@@ -15,6 +15,15 @@
 ### Indicator Souns Switcher
 - `sudo apt-add-repository ppa:yktooo/ppa`
 - `sudo apt update && sudo apt install indicator-sound-switcher` 
+### rtl8192eu-linux Driver
+`sudo apt install -y linux-headers-$(uname -r) build-essential git binutils dkms`
+```
+sudo bash
+cd /tmp
+git clone https://github.com/clnhub/rtl8192eu-linux.git
+cd rtl8192eu-linux/
+./install_wifi.sh
+```
 
 
 ## Docker
@@ -29,6 +38,7 @@ https://docs.docker.com/compose/install/
 - `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
 - `git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
 - `source .zshrc`
+
 
 ## NVM
 - `curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh | bash` // Check latest version
