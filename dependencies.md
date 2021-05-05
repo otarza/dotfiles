@@ -12,6 +12,7 @@
 - `sudo apt-get install php7.4-fpm` // check latest version
 - `sudo apt install gnome-tweaks`
 - `sudo apt-get install -y dconf-editor`
+- `sudo apt install tmux`
 ### Indicator Souns Switcher
 - `sudo apt-add-repository ppa:yktooo/ppa`
 - `sudo apt update && sudo apt install indicator-sound-switcher` 
